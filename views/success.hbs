@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title> Welcome! </title>
+    	<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<noscript><link rel="stylesheet" href="../css/noscript.css" /></noscript>
+		</head>
+
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				{{> header flag=flag name=name uNumber = uNumber}}
+					<!-- <header id="header">
+						<div class="inner">
+ -->
+							<!-- Logo -->
+								<!-- <a href="/" class="logo">
+									<span class="symbol"><img src="../images/lapitlogo.png" alt="" /></span><span class="title">Lapit</span>
+								</a> -->
+
+							<!-- Nav -->
+								<!-- <nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header> -->
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="/aboutUs">About Us</a></li>
+							<li><a href="/myAccount">My Account</a></li>
+							<li><a href="#">Sign Out</a></li>
+						</ul>
+					</nav>
+
+				<div id="main">
+					<div class="inner">
+        				<h1> Welcome {{fName}} {{lName}}! Log in <a href="/login">here</a> to use your account.</h1>
+    				</div>
+				</div>
+		</div>
+
+	<!-- Scripts -->
+			<script src="../js/jquery.min.js"></script>
+			<script src="../js/browser.min.js"></script>
+			<script src="../js/breakpoints.min.js"></script>
+			<script src="../js/util.js"></script>
+			<script src="../js/main.js"></script>
+
+	</body>
+</html>

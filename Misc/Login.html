@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>LAPIT Login page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+		.avatar {
+			display: block;
+			height: 400px;
+			width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		/* Full-width input fields */
+		  input[type=text], input[type=password] {
+		  width: 100%;
+		  padding: 15px;
+		  margin: 5px 0 22px 0;
+		  display: inline-block;
+		  border: none;
+		  background: #f1f1f1;
+		}
+
+		input[type=text]:focus, input[type=password]:focus {
+		  background-color: #ddd;
+		  outline: none;
+		}
+
+		hr {
+		  border: 1px solid #f1f1f1;
+		  margin-bottom: 25px;
+		}
+
+		button {
+		  color: white;
+		  border: none;
+		  cursor: pointer;
+		  width: 100%;
+		  opacity: 0.9;
+		}
+
+		button:hover {
+		  opacity:1;
+		}
+
+		/* Float cancel and signup buttons and add an equal width */
+		.cancelbtn, .signupbtn {
+		  float: left;
+		  width: 50%;
+		}
+
+		/* Add padding to container elements */
+		.container {
+		  padding: 16px;
+		}
+
+		/* Clear floats */
+		.clearfix::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+		}
+
+		/* Change styles for cancel button and signup button on extra small screens */
+		@media screen and (max-width: 300px) {
+		  .signupbtn {
+			width: 100%;
+		  }
+		}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="assets/images/lapitlogo.png"/></span><span class="title">Lapit</span>
+								</a
+								
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about_us.html">About Us</a></li>
+							<li><a href="MyAccount.html">My Account</a></li>
+							<li><a href="#">Sign Out</a></li>
+						</ul>
+					</nav>
+					
+					<!-- Main -->
+				
+					<div id="main">
+						<div class="inner">
+							<form action="action_page.php" method="post">
+
+								<div class="container">
+									<label for="uname"><b>Username</b></label>
+									<input type="text" placeholder="Enter Username" name="uname" required>
+
+									<label for="psw"><b>Password</b></label>
+									<input type="password" placeholder="Enter Password" name="psw" required>
+
+									<button type="submit">Login</button>
+								</div>
+
+								<div class="container" style="background-color:#f1f1f1">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Remember me</label>
+									<span class="psw" style="float:right; position:relative;">Forgot <a href="#">password?</a></span>
+								</div>
+							</form>
+						<!-- Main -->
+						</div>
+					</div>	
+					
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

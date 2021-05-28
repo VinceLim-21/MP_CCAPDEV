@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Restaurant</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.floatright{
+				float:right;
+			}
+			.imageicon{
+				height: 150px;
+				width: 150 px;
+				float: left;
+				padding-bottom: 20px;
+			}
+			.component {
+				position: relative;
+				font-style: italic;
+				font-weight: bold;
+				font-size: 18px;
+				text-align: right;
+				padding: 0 26px 0 0;
+				width: 150px;
+				float: left;
+				height: 100px;
+			}
+			.rating {
+				padding-left:20x;
+			}
+			.button {
+				position: relative;
+				padding-bottom: 10px;
+				margin-top: 10px;
+				clear: both;
+				font-size: 0.7em;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/lapitlogo.png" alt="" /></span><span class="title">Lapit</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about_us.html">About Us</a></li>
+							<li><a href="MyAccount.html">My Account</a></li>
+							<li><a href="#">Sign Out</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<span class="image main"><img src="images/Restaurant/Mcdo.jpg" alt="" /></span>
+							<h1>Salty Chocolate Balls</h1>
+							
+							<img src = "images/res/salt_ball.jfif" width="680px" alt=""/>
+							
+							<h4>Dessert</h4>
+							<h4>104, 1103 Sct. Gandia St, Diliman, Quezon City, 1103 Metro Manila</h4>
+							<h4>Open Now  -  9am - 5pm</h4>
+
+							<button class="addcomment"type="button"><a href="#comment">Add comment</a></button>
+							<hr>
+							<h4>About This Place</h4>
+							<br>
+							<img src = "images/results/choc_ball.jpg" width="400px" alt=""/>
+							<h6>Salty Chocolate Ball</h6>
+							<br>
+							<h3>More Info</h3>
+							<ul class = "moreinfo">
+  							<li> Home Delivery</li>
+  							<li> Takeaway Available</li>
+							</ul>
+							<hr>
+						</div>
+						
+					
+					
+					<div class = "inner">
+					
+					
+					<section id="comment">
+						<h3>Leave a Comment</h3>
+
+						<form action="post_comment.php" method="post" id="commentform">
+
+						<label for="comment_author" class="required">Your name</label>
+						<input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+						<label for="email" class="required">Your email</label>
+						<input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+						<label for="comment" class="required">Your message</label>
+						<textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+						<input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+							<br>
+						<input name="submit" type="submit" value="Submit comment" />
+					</section>
+
+  					</form>
+
+					</div>
+			</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

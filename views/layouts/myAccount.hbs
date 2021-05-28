@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>My Account</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.floatright{
+				float:right;
+			}
+			#image{
+				height: 303px;
+				width: 293px;
+				position: relative;
+				margin: -30px 0 0 0;
+
+			}
+			.component {
+				font-style: italic;
+				font-weight: bold;
+				font-size: 18px;
+				text-align: right;
+				padding: 0 26px 0 0;
+				width: 150px;
+				float: left;
+				height: 30px;
+				border-right:1px solid #999;
+			}
+			
+			.rating {
+				padding-left:20x;
+			}
+			#button {
+				position: relative;
+				padding-bottom: 10px;
+				margin-top: 10px;
+				clear: both;
+				font-size: 0.7em;
+			}
+		</style>
+</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/lapitlogo.png"/></span><span class="title">Lapit</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+					
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about_us.html">About Us</a></li>
+							<li><a href="MyAccount.html">My Account</a></li>
+							<li><a href="/logout">Sign Out</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				
+					<div id="main">
+						<div class="inner">
+							<div><img id="image" class="floatright" src="images/profiles/accpic.png" alt="face"></div>
+							<h1 id="header_name" style="border-bottom: 1px solid #999; ">{{fName}} {{lName}}</h1>
+							<p>
+								Contact no.: {{uNumber}} </br>
+								Address: <a href="https://www.google.com/maps">{{address}} </a></br>
+							</p>
+							<div id="bio">
+								<p>
+									Bio here.
+								</p>
+							</div>
+							<dl>
+								<!--- Everything here should pertain about yourself-->
+								<dd class="break"></dd>
+								
+								<!-- You are free to add more entries here-->
+								<dt class="component">Favorites</dt>
+							    <dd style="margin-left:175px;">
+									Japanese, Asian, Fastfood.
+								</dd>
+								</br>
+								<!-- You are free to add more entries here-->
+								<dt class="component">Rating</dt>
+								<dd>
+									<span style="margin-left:25px"><img id="rating" src="images/stars.png"></span>
+								</dd>
+							 
+							</dl>
+        
+							
+							<section>
+								<h3>Transaction History</h3>
+								<div class="table-wrapper">
+									<table class="alt">
+										<thead>
+											<tr>
+												<th>Item</th>
+												<th>Description</th>
+												<th>Seller</th>
+												<th>Price</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Salty Chocolate Balls</td>
+												<td>Salty and Chocolatey. What is not to love?</td>
+												<td>Carlo Niu</td>
+												<td>35.00</td>
+											</tr>
+											<tr>
+												<td>Thomas' Pried Chicken</td>
+												<td>Pried to Perfection. #Pinoy Fried</td>
+												<td>Vince Lim</td>
+												<td>75.00</td>
+											</tr>
+											<tr>
+												<td>Shuama</td>
+												<td>Shua Shua Shua</td>
+												<td>Joshua Tan</td>
+												<td>49.99</td>
+												
+											</tr>
+											<tr>
+												<td>Pan de Coco</td>
+												<td>NaCOCOloka to sa sarap!</td>
+												<td>Bestieee's Bakery</td>
+												<td>18.00</td>
+											</tr>
+											<tr>
+												<td>Jumbo Hotdog</td>
+												<td>Kaya mo ba 'to?</td>
+												<td>Charlie</td>
+												<td>85.00</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</section>
+    
+						</div>
+					</div>
+					
+			</div>
+    
+	<!-- Scripts -->
+			<!-- Scripts -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="../js/jquery.min.js"></script>
+			<script src="../js/browser.min.js"></script>
+			<script src="../js/breakpoints.min.js"></script>
+			<script src="../js/util.js"></script>
+			<script src="../js/main.js"></script>
+			<script src="../js/login.js"></script>
+			<script src="../js/validator.min.js" type="text/javascript"></script>
+			<script src="../js/signup.js" type="text/javascript"></script>
+
+	</body>
+</html>
