@@ -14,7 +14,9 @@ const hbs = require(`hbs`);
 const app = express();
 
 dotenv.config();
-port = process.env.PORT;
+port = process.env.PORT || 3000;
+app.listen(port);
+
 hostname = process.env.HOSTNAME;
 
 app.set(`view engine`,`hbs`);
