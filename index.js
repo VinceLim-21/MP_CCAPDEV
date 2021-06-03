@@ -15,7 +15,7 @@ const app = express();
 
 dotenv.config();
 //port = process.env.PORT || 3000;
-app.listen(process.env.PORT || 3000);
+//app.listen(process.env.PORT || 3000);
 
 hostname = process.env.HOSTNAME;
 
@@ -76,8 +76,8 @@ app.use(function (req, res) {
     res.render('error', details);
 });
 
-
-app.listen(port,hostname,function(){
+app.listen(process.env.PORT || 3000);
+/*app.listen(port,hostname,function(){
     console.log('Server running at:');
-    console.log('http://'+ hostname + ':' + port);
-});
+    console.log('http://'+ hostname + ':' + process.env.PORT || 3000);
+});*/
