@@ -14,8 +14,8 @@ const hbs = require(`hbs`);
 const app = express();
 
 dotenv.config();
-port = process.env.PORT || 3000;
-app.listen(port);
+//port = process.env.PORT || 3000;
+app.listen(process.env.PORT || 3000);
 
 hostname = process.env.HOSTNAME;
 
