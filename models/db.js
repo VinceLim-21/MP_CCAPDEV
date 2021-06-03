@@ -4,7 +4,7 @@ const User = require('./UserModel.js');
 
 const Comment = require('./CommentModel.js');
 
-const url = 'mongodb://localhost:27017/MP-Users';
+const url = 'mongodb+srv://calloy:iRflJUDZSONUO2F4@lapit-users.p8hhp.mongodb.net/test';
 
 const options = {
     useUnifiedTopology: true,
