@@ -15,7 +15,7 @@ const app = express();
 
 dotenv.config();
 port = process.env.PORT || 3000;
-app.listen(port);
+//app.listen(port);
 
 hostname = process.env.HOSTNAME;
 
